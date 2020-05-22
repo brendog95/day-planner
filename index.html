@@ -9,20 +9,32 @@
 </head>
 <body">
     <header class="header">
-        <h2 class="h2">My Day Planner</h2>
+        <h2 class="h2">My Day Planner</h2><br>
+        <h3 class="date-h3">Todays Date: <span class="date-element"></span> </h3><br>
         <h3 class="h3">Fill in your daily schedule below to keep track of whats coming up!</h3>
     </header><br>
 
     <div class="data-container">
-        <table>
-            <tbody>
-                <th>Time</th>
-                <th>Activities</th>
-                
-            </tbody>
-        </table>
-
+        <form id="plannerForm">
+            <div class="container" id="plannerContainer"></div>
+        </form>
     </div>
+
+    <div class="color-chart">
+        <div>
+            <div class="blue">Blue= Past Hours</div>
+            <div class="yellow">Yellow= Current Hour</div>
+            <div class="green">Green= Upcoming Hours</div>
+        </div>
+    </div>
+
+    <footer class=" fixed-bottom footer">
+        <h4 class="footer-h4"> Brought to you by Brenden Forbis</h4>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
+    <script src= "script.js"></script>
     
 </body>
 </html>
