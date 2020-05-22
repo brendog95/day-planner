@@ -38,7 +38,6 @@ body {
 
 .color-chart {
     position: relative;
-    background: silver;
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
@@ -48,18 +47,21 @@ body {
 .blue {
     background-color: lightblue;
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
 
 }
 
 .yellow {
     background-color: #FFFF99;
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
 
 }
 
 .green {
     background-color: lightgreen;
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
 
 }
 
@@ -133,6 +135,10 @@ input {
     border-radius: 10px;
 
 }
+
+.col-md-1, .col-md-2, .col-md-9 {
+    padding: 0;
+  }
 
 
 
