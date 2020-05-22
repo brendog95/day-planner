@@ -1,0 +1,46 @@
+body {
+    background-image: url("./images/seamless-pattern.jpg");
+
+    vertical-align: middle;
+}
+
+.header {
+    position: relative;
+    background: tan;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+
+}
+
+.h2 {
+    position: relative;
+    text-align: center;
+    text-decoration: underline; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+   
+}
+
+.h3 {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+
+
+
+    
+
+
+}
+
+
+
+
+
+
+
+
